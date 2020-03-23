@@ -1,0 +1,69 @@
+body{
+    font-style: normal;
+}
+.container{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 260px 260px;
+    column-gap: 25px;
+}
+.container > div:nth-child(1n) {
+    background-color: #ffffff;
+    border-style: solid;	
+    border-radius: 9px;
+    border-color: black;
+    border-width: 1px;
+  }
+  .container > div:nth-child(2n) {
+        background-color: #ffffff;
+        border-style: outset;
+        border-radius: 9px;
+        border-color: black;
+        border-width: 1px;
+  }
+  .cardtitle{
+margin-left: 25px;
+margin-bottom: 3px;
+font-size: 23px;
+  }
+  .cardtransparant{
+      margin-left: 25px;
+      margin-top: 1px ;
+      margin-bottom: 50px;
+      color: grey;
+      font-size: 15px ;
+  }
+  .cardtext{
+      margin-left: 25px;
+      font-size: 18px;
+  }
+  .image{
+      border-radius: 15px;
+      max-width: 100px;
+      float: right;
+  }
+  .button1{
+    width: 208px;
+    margin-right: -2px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(20, 211, 20);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    color:rgb(20, 211, 20) ;
+  }
+  .button2{
+    width: 208px;
+    margin-right: -2px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-color: rgb(218, 30, 16);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    color:rgb(218, 30, 16) ;
+  }
+  .buttons{
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 20px;
+  }
