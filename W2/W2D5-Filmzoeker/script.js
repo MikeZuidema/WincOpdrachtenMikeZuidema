@@ -1,10 +1,8 @@
-/* 
-Ik heb het helaas niet af kunnen maken. Ik liep helemaal vast bij stap 16..
+/* Ik heb het helaas niet af kunnen maken. Ik liep helemaal vast bij stap 16..
 en ik weet dat ik mijn eigen herhaalt heb in mijn code...
 van het weekend ga ik nog kijken maar ben bang dat ik het niet ga vinden.
 hou niet van opgeven maar het is niet anders.
-Hoop dat het genoeg is voor in iedergeval Oranje stoplicht
-*/
+Hoop dat het genoeg is voor in iedergeval Oranje stoplicht*/
 //Buttons
 const newButton = document.getElementById("new");
 const avengerButton = document.getElementById("avenger");
@@ -19,6 +17,7 @@ let currentposters = movieUl.getElementsByTagName("li");
 let moviesList = movies.map(function (movies) {
     return movies
 });
+
 const movieLinks = movies.map(function (movies) {
     return movies.imdbID
 })
@@ -29,7 +28,7 @@ const moviesPosters = moviesList.map(function (movies) {
 
 
 const posters = moviesPosters.forEach(function (element) {
-    li = document.createElement('li');
+    li = document.createElement("li");
     movieUl.appendChild(li);
     newA = document.createElement("a");
     li.appendChild(newA);
@@ -107,7 +106,7 @@ const newfunction = newButton.addEventListener("change", function () {
         first = newUl.firstElementChild;
     }
     newPosters.forEach(function (element) {
-        li = document.createElement('li');
+        li = document.createElement("li");
         movieUl.appendChild(li);
         newImg = document.createElement("img");
         li.appendChild(newImg);
@@ -124,7 +123,7 @@ const avengerFunction = avengerButton.addEventListener("change", function () {
     }
 
     avengerfilter.forEach(function (element) {
-        li = document.createElement('li');
+        li = document.createElement("li");
         movieUl.appendChild(li);
         newImg = document.createElement("img");
         li.appendChild(newImg)
@@ -140,7 +139,7 @@ const xmenFunction = xMenButton.addEventListener("change", function () {
         first = newUl.firstElementChild;
     }
     xmenfilter.forEach(function (element) {
-        li = document.createElement('li');
+        li = document.createElement("li");
         movieUl.appendChild(li);
         newImg = document.createElement("img");
         li.appendChild(newImg)
@@ -156,7 +155,7 @@ const princessFunction = princessButton.addEventListener("change", function () {
         first = newUl.firstElementChild;
     }
     princessfilter.forEach(function (element) {
-        li = document.createElement('li');
+        li = document.createElement("li");
         movieUl.appendChild(li);
         newImg = document.createElement("img");
         li.appendChild(newImg)
@@ -172,7 +171,7 @@ const batmanFunction = batmanButton.addEventListener("change", function () {
         first = newUl.firstElementChild;
     }
     batmanfilter.forEach(function (element) {
-        li = document.createElement('li');
+        li = document.createElement("li");
         movieUl.appendChild(li);
         newImg = document.createElement("img");
         li.appendChild(newImg)
