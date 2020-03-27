@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(46, 31, 31) ;
+}
+
+.radioButton{
+    margin-left: 200px;
+    max-height: auto;
+}
+
+.paginaTitel{
+    text-align: center;
+    background-color: rgb(46, 31, 31);
+    color: white;
+}
+
+.labels{
+    font-size: 19px;
+    font-style: oblique;
+    color: white;
+}
+ul {
+    height: 3500px;
+    padding: 5px;
+    margin: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li{
+      margin-top: 15px;
+      margin-left: 8px;
+  }

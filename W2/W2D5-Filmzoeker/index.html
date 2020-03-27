@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Filmzoeker Mike Zuidema</title>
+</head>
+<script defer src="movies.js"></script>
+<script defer src="script.js"></script>
+<link rel="stylesheet" href="styles.css">
+
+<body class="container">
+    <header>
+        <h1 class="paginaTitel">Welkom bij Mike's filmzoeker</h1>
+    </header>
+    <nav id="radionav">
+        <input type="radio" class="radioButton" id="new" name="drone" value="newMovies">
+        <label for="new" class="labels">Laatste Films, 2014 of nieuwer</label>
+        <input type="radio" class="radioButton" id="avenger" name="drone" value="avengerMovies">
+        <label for="avenger" class="labels">Avenger Films</label>
+        <input type="radio" class="radioButton" id="xmen" name="drone" value="xMenMovies">
+        <label for="xmen" class="labels">X-Men Films</label>
+        <input type="radio" class="radioButton" id="princess" name="drone" value="princessMovies">
+        <label for="princess" class="labels">Princess</label>
+        <input type="radio" class="radioButton" id="batman" name="drone" value="batmanMovies">
+        <label for="batman" class="labels">Batman</label>
+    </nav>
+    <main>
+        <ul id="moviePosters">
+        </ul>
+    </main>
+</body>
+
+</html>
