@@ -1,12 +1,12 @@
 const getSucceedingPromise = (message, ms) => {
-    const succeedingPromise = new Promise((resolve) => {
+    const succeedingPromise = new Promise((resolve, reject) => {
         setTimeout(() => resolve(message), ms);
     });
     return succeedingPromise;
 };
 
 const getFailingPromise = (errorMessage, ms) => {
-    const failingPromise = new Promise((reject) => {
+    const failingPromise = new Promise((resolve, reject) => {
         setTimeout(() => reject(errorMessage), ms);
     });
     return failingPromise;
